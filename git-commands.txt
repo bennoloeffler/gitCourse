@@ -30,6 +30,7 @@ git reset --soft 3bba87b (only commits are removed - default)
 git reset --hard 3bba87b (including source changes)
 
 git merge featureBranch
+git push -u origin featureBranch
 
 git init -b main
 
