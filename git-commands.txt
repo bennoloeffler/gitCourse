@@ -29,8 +29,10 @@ git pull (= fetch + merge)
 
 git tag -a v1.4 -m "my version 1.4"
 
-git checkout 1.4 
-git checkout -b <new-branch-name>
+git checkout 1.4 (HEAD dangeling)
+git checkout -b 1.4-bugfixes (create branch)
+git checkout master
+git merge 1.4-bugfixes
 
 git push <remote> <branch> (origin newFeature)
 git push <remote> --all (origin --all) (alle branches)
