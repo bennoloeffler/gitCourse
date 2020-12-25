@@ -17,6 +17,19 @@ git branch (show branch, eg *master)
 git branch featureBranch (but not make it current)
 git checkout freatureBranch (make it current)
 
+git show 01ff4e36ea5a640b1b7ecf60d83a7c47b8fd61b5 
+git show 3bba87b (short version)
+git show --names-only 01ff4e36ea5a640b1b7ecf60d83a7c47b8fd61b5 
+git reflog (info about all commits all branches)
+
+git push 
+git pull
+
+git revert 3bba87b (add a commit that reverts) (DO THAT... in teams)
+git reset --soft 3bba87b (only commits are removed - default)
+git reset --hard 3bba87b (including source changes)
+
+git merge featureBranch
 
 git init -b main
 
