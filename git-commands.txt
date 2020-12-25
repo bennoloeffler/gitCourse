@@ -13,6 +13,7 @@ git reset stagedFile.txt (--> unstage again)
 git status (show status of files)
 git branch (show branch, eg *master)
 git branch featureBranch (but not make it current)
+git checkout freatureBranch (make it current)
 
 
 git init -b main
