@@ -5,6 +5,7 @@ git remote -v (show push and fetch connection)
 (push from local to remote repo)
 (fetch from remote repo to local)
 
+
 git add .
 git commit -m "initial commit"
 git log (show last commit)
