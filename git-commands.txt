@@ -7,7 +7,7 @@ git remote -v
 
 
 
-
+git push -u origin featureBranch
 git init -b main
 
 
