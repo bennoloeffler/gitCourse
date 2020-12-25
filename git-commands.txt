@@ -1,5 +1,6 @@
 create repo on github / get link
 git clone repository-link
+(connent repo 'origin' with url)
 git somthing -h (HELP)
 git remote -v (show push and fetch connection)
 (push from local to remote repo)
@@ -14,6 +15,7 @@ git add file (--> staged)
 git reset stagedFile.txt (--> unstage again)
 git status (show status of files)
 git branch (show branch, eg *master)
+git branch -r (show remote repos)
 git branch featureBranch (but not make it current)
 git checkout freatureBranch (make it current)
 
@@ -23,7 +25,7 @@ git show --names-only 01ff4e36ea5a640b1b7ecf60d83a7c47b8fd61b5
 git reflog (info about all commits all branches)
 
 git push 
-git pull
+git pull (= fetch + merge)
 
 git revert 3bba87b (add a commit that reverts) (DO THAT... in teams)
 git reset --soft 3bba87b (only commits are removed - default)
@@ -32,7 +34,19 @@ git reset --hard 3bba87b (including source changes)
 git merge featureBranch
 git push -u origin featureBranch
 
+git fetch
+git merge origin/master
+=
+git pull
+
+---
 git init -b main
+git diff branch1 branch2
+git tag
+git stash (versecken? zurückholen)
+git stash pop
+git rebase (the better merge?)
+git clean (remove untracked)
 
 
 
