@@ -1,0 +1,14 @@
+create repo on github / get link
+git clone repository-link
+git remote -v
+(push from local to remote repo)
+(fetch from remote repo to local)
+
+
+
+
+
+git init -b main
+
+
+
