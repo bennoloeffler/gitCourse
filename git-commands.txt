@@ -1,11 +1,18 @@
 create repo on github / get link
 git clone repository-link
-git remote -v
+git somthing -h (HELP)
+git remote -v (show push and fetch connection)
 (push from local to remote repo)
 (fetch from remote repo to local)
 
-
-
+git add .
+git commit -m "initial commit"
+git log (show last commit)
+git add file (--> staged)
+git reset stagedFile.txt (--> unstage again)
+git status (show status of files)
+git branch (show branch, eg *master)
+git branch featureBranch (but not make it current)
 
 
 git init -b main
