@@ -27,6 +27,16 @@ git reflog (info about all commits all branches)
 git push 
 git pull (= fetch + merge)
 
+git tag -a v1.4 -m "my version 1.4"
+
+git checkout 1.4 
+git checkout -b <new-branch-name>
+
+git push <remote> <branch> (origin newFeature)
+git push <remote> --all (origin --all) (alle branches)
+git push origin --tags
+
+
 git revert 3bba87b (add a commit that reverts) (DO THAT... in teams)
 git reset --soft 3bba87b (only commits are removed - default)
 git reset --hard 3bba87b (including source changes)
