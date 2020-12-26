@@ -1,4 +1,5 @@
 https://www.atlassian.com/de/git/tutorials/setting-up-a-repository
+https://docs.github.com/en/free-pro-team@latest/github/using-git/learning-about-git
 
 create repo on github / get link
 git clone repository-link
