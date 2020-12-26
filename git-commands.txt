@@ -54,6 +54,7 @@ git merge origin/master
 =
 git pull
 
+https://stackoverflow.com/questions/7484199/how-to-test-a-merge-without-actually-merging-first
 git merge --abort (git reset --merge)
 
 ---
