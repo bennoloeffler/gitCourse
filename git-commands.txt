@@ -54,6 +54,8 @@ git merge origin/master
 =
 git pull
 
+git merge --abort (git reset --merge)
+
 ---
 git init -b main
 git diff branch1 branch2
