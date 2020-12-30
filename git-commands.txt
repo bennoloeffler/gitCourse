@@ -1,6 +1,8 @@
 https://www.atlassian.com/de/git/tutorials/setting-up-a-repository
 https://docs.github.com/en/free-pro-team@latest/github/using-git/learning-about-git
 
+MOVE REPO: https://www.smashingmagazine.com/2014/05/moving-git-repository-new-server/
+
 create repo on github / get link
 git clone repository-link
 (connent repo 'origin' with url)
